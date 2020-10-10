@@ -200,6 +200,7 @@ def skipgram(currentCenterWord, windowSize, outsideWords, word2Ind,
         # gradOutsideVectors += gradOutsideVecs
         gradCenterVecs[word2Ind[currentCenterWord]] += gradCenterVec
         gradOutsideVectors += gradOutsideVecs
+        gradOutsideVectors
 
     ### END YOUR CODE
     
